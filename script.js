@@ -67,7 +67,6 @@ document.getElementById("modalViewer").src = file + "#zoom=page-width"
 document.getElementById("modalTitle").innerText = title
 
 }
-}
 
 function closeModal(){
 
