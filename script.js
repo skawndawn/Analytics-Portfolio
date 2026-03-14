@@ -60,12 +60,13 @@ nav.classList.toggle("active")
 
 function openModal(file,title){
 
-document.getElementById("projectModal").style.display="block"
+document.getElementById("projectModal").style.display="flex"
 
-document.getElementById("modalViewer").src = file
+document.getElementById("modalViewer").src = file + "#zoom=page-width"
 
 document.getElementById("modalTitle").innerText = title
 
+}
 }
 
 function closeModal(){
