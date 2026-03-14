@@ -175,7 +175,7 @@ padding-top:100px;
 }
 
 .modal img{
-width:90%;
+width:80%;
 }
 
 .close{
@@ -186,7 +186,7 @@ font-size:40px;
 cursor:pointer;
 }
 .modal iframe{
-width:90%;
+width:80%;
 height:80vh;
 border:none;
 margin-top:20px;
