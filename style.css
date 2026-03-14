@@ -110,8 +110,8 @@ align-items:center;
 }
 
 .profile-img img{
-width:350px;
-border-radius:10px;
+width:500px;
+border-radius:15px;
 }
 
 /* SKILLS */
@@ -186,33 +186,55 @@ font-size:40px;
 cursor:pointer;
 }
 
-/* CONTACT */
-
-.contact{
-padding:100px 10%;
-text-align:center;
+/* Center contact info container */
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* centers all items horizontally */
+  gap: 15px;
+  margin-top: 30px;
+}
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* centers all items horizontally */
+  gap: 15px;
+  margin-top: 30px;
 }
 
-.contact-form{
-max-width:500px;
-margin:auto;
-display:flex;
-flex-direction:column;
-gap:15px;
+/* Individual contact line */
+.contact-info p {
+  font-size: 18px;
+  color: #7FDBFF; /* light blue text */
+  display: flex;
+  align-items: center; /* vertically center icon and text */
+  justify-content: center; /* center text horizontally */
+  gap: 10px; /* space between icon and text */
+  margin: 0; 
 }
 
-input,textarea{
-padding:12px;
-border:none;
-border-radius:5px;
-background:#0f172a;
-color:white;
+.contact-info a {
+  color: #7FDBFF;
+  text-decoration: none;
+  transition: 0.3s;
 }
-.modal iframe{
 
-width:80%;
-height:80vh;
-border:none;
-background:white;
+.contact-info a:hover {
+  text-decoration: underline;
+  color: #00f5ff; /* brighter neon on hover */
+}
 
+.contact-info i {
+  font-size: 20px;
+  color: #7FDBFF;
+
+/* FOOTER */
+footer {
+  width: 100%;               /* make sure footer spans full width */
+  text-align: center;        /* center the text horizontally */
+  padding: 25px 0;           /* vertical padding */
+  background: rgba(0,0,0,0.5); /* optional translucent background to match navbar */
+  color: #7FDBFF;            /* light blue to match contact section */
+  font-size: 16px;
+  position: relative;        /* keeps it in normal flow */
 }
