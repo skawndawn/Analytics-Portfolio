@@ -172,11 +172,12 @@ height:100%;
 background:rgba(0,0,0,0.9);
 
 display:flex;
-flex-direction:column;
-align-items:center;
 justify-content:center;
-}
+align-items:center;
 
+flex-direction:column;
+z-index:999;
+}
 .modal img{
 width:80%;
 }
@@ -195,6 +196,21 @@ border:none;
 border-radius:10px;
 box-shadow:0 0 20px #00f5ff;
 }
+#modalTitle{
+margin-top:15px;
+font-size:20px;
+color:#00f5ff;
+text-align:center;
+}
+.close{
+position:absolute;
+top:30px;
+right:40px;
+font-size:40px;
+color:white;
+cursor:pointer;
+}
+
 /* Center contact info container */
 .contact {
   display: flex;
