@@ -185,7 +185,13 @@ right:50px;
 font-size:40px;
 cursor:pointer;
 }
-
+.modal iframe{
+width:90%;
+height:80vh;
+border:none;
+margin-top:20px;
+border-radius:10px;
+}
 /* Center contact info container */
 .contact {
   display: flex;
