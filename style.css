@@ -196,6 +196,20 @@ border:none;
 border-radius:10px;
 box-shadow:0 0 20px #00f5ff;
 }
+.modal iframe{
+animation:zoomIn .35s ease;
+}
+
+@keyframes zoomIn{
+from{
+transform:scale(.85);
+opacity:0;
+}
+to{
+transform:scale(1);
+opacity:1;
+}
+}
 #modalTitle{
 margin-top:15px;
 font-size:20px;
