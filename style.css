@@ -1,0 +1,218 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#020617;
+color:white;
+overflow-x:hidden;
+}
+
+/* PARTICLE CANVAS */
+
+#particles{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+z-index:-1;
+}
+
+/* NAVBAR */
+
+header{
+position:fixed;
+width:100%;
+top:0;
+background:rgba(0,0,0,0.5);
+backdrop-filter:blur(10px);
+}
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 10%;
+}
+
+.logo{
+color:#00f5ff;
+}
+
+.nav-links{
+display:flex;
+list-style:none;
+}
+
+.nav-links li{
+margin-left:25px;
+}
+
+.nav-links a{
+color:white;
+text-decoration:none;
+}
+
+.menu-toggle{
+display:none;
+cursor:pointer;
+font-size:22px;
+}
+
+/* HERO */
+
+.hero{
+height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+}
+
+.typing{
+color:#00f5ff;
+margin:10px 0;
+}
+
+.highlight{
+color:#00f5ff;
+}
+
+.terminal{
+background:#0f172a;
+padding:15px;
+border-radius:6px;
+margin:20px 0;
+font-family:monospace;
+text-align:left;
+}
+
+.btn{
+background:#00f5ff;
+padding:12px 25px;
+border:none;
+cursor:pointer;
+font-weight:600;
+border-radius:5px;
+}
+
+/* PROFILE */
+
+.container{
+display:flex;
+gap:50px;
+padding:120px 10%;
+align-items:center;
+}
+
+.profile-img img{
+width:350px;
+border-radius:10px;
+}
+
+/* SKILLS */
+
+.bar{
+background:#111;
+height:8px;
+border-radius:10px;
+margin-bottom:15px;
+}
+
+.bar span{
+display:block;
+height:100%;
+background:#00f5ff;
+border-radius:10px;
+}
+
+/* PROJECTS */
+
+.projects{
+padding:100px 10%;
+text-align:center;
+}
+
+.projects-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.project-card{
+background:#0f172a;
+border-radius:8px;
+overflow:hidden;
+cursor:pointer;
+transition:.3s;
+}
+
+.project-card img{
+width:100%;
+}
+
+.project-card:hover{
+transform:scale(1.05);
+box-shadow:0 0 15px #00f5ff;
+}
+
+/* MODAL */
+
+.modal{
+display:none;
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:rgba(0,0,0,0.9);
+text-align:center;
+padding-top:100px;
+}
+
+.modal img{
+width:60%;
+}
+
+.close{
+position:absolute;
+top:30px;
+right:50px;
+font-size:40px;
+cursor:pointer;
+}
+
+/* CONTACT */
+
+.contact{
+padding:100px 10%;
+text-align:center;
+}
+
+.contact-form{
+max-width:500px;
+margin:auto;
+display:flex;
+flex-direction:column;
+gap:15px;
+}
+
+input,textarea{
+padding:12px;
+border:none;
+border-radius:5px;
+background:#0f172a;
+color:white;
+}
+.modal iframe{
+
+width:80%;
+height:80vh;
+border:none;
+background:white;
+
+}
