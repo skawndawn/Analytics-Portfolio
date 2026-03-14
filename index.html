@@ -1,105 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <title>Arrel Zarate | Tech Portfolio</title>
-
 <link rel="stylesheet" href="style.css">
-
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-
 </head>
-
 <body>
 
+<!-- STARRY NIGHT BACKGROUND -->
 <canvas id="particles"></canvas>
 
+<!-- NAVBAR -->
 <header>
-
-<nav class="navbar">
-
-<h2 class="logo">Dawn.dev</h2>
-
-<div class="menu-toggle">☰</div>
-
-<ul class="nav-links">
-<li><a href="#home">Home</a></li>
-<li><a href="#profile">Profile</a></li>
-<li><a href="#projects">Projects</a></li>
-<li><a href="#contact">Contact</a></li>
-<li><a href="#analytics">Analytics</a></li>
-</ul>
-
-</nav>
-
+  <nav class="navbar">
+    <h2 class="logo">Dawn.dev</h2>
+    <div class="menu-toggle">☰</div>
+    <ul class="nav-links">
+      <li><a href="#profile">Home</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#analytics">Analytics</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
 </header>
 
+<!-- PROFILE / FRONT PAGE -->
+<section id="profile" class="hero container">
+  <div class="profile-img">
+    <img src="images/Profile.PNG" alt="Profile Image">
+  </div>
+  <div class="profile-text">
+    <h1>Hello, I'm <span class="highlight">Arrel Zarate</span></h1>
+    <h2 class="typing"></h2>
+    <p>
+      Computer Science student who is passionate about Graphic Designing, Illustrating, Web Developing, and Data Analytics.
+    </p>
 
-<!-- HERO -->
+    <!-- SKILLS -->
+    <div class="skills">
+      <p>Graphic Designing</p>
+      <div class="bar"><span style="width:90%"></span></div>
+      <p>Illustrating</p>
+      <div class="bar"><span style="width:85%"></span></div>
+      <p>Web Development</p>
+      <div class="bar"><span style="width:80%"></span></div>
+      <p>Data Analytics</p>
+      <div class="bar"><span style="width:75%"></span></div>
+    </div>
 
-<section id="home" class="hero">
-
-<div class="hero-content">
-
-<h1>Hello, I'm <span class="highlight">Arrel Zarate</span></h1>
-
-<h2 class="typing"></h2>
-
-<div class="terminal">
-
-<p>> Initializing portfolio...</p>
-<p>> Loading developer profile...</p>
-<p>> System Ready.</p>
-
-</div>
-
-<a href="#projects" class="btn">View Projects</a>
-
-</div>
-
-</section>
-
-
-<!-- PROFILE -->
-
-<section id="profile" class="profile container">
-
-<div class="profile-img">
-<img src="images/Profile.PNG">
-</div>
-
-<div class="profile-text">
-
-<h2>Profile</h2>
-
-<p>
-Computer Science student who is passionate about Graphic Designing and Illustrating, System Development,
-Web Technologies, and Data Analytics.
-</p>
-
-<h3>Skills</h3>
-
-<div class="skill">
-
-<p>Graphic Designing</p>
-<div class="bar"><span style="width:90%"></span></div>
-
-<p>Illustrating</p>
-<div class="bar"><span style="width:85%"></span></div>
-
-<p>Web Development</p>
-<div class="bar"><span style="width:80%"></span></div>
-
-<p>Data Analytics>
-<div class="bar"><span style="width:75%"></span></div>
-
-</div>
-
-</div>
-
+    <a href="#projects" class="btn">View Projects / Tasks</a>
+  </div>
 </section>
 
 
@@ -227,30 +179,23 @@ onclick="openModal('tasks/Midterm_Task2_Zarate.pdf','Midterm Task 2')">
 </div>
 
 <!-- CONTACT -->
-
 <section id="contact" class="contact">
+  <h2 class="section-title">Contact</h2>
 
-<h2 class="section-title">Contact</h2>
-
-<form class="contact-form">
-
-<input type="text" placeholder="Name" required>
-<input type="email" placeholder="Email" required>
-<textarea placeholder="Message"></textarea>
-
-<button class="btn">Send Message</button>
-
-</form>
+  <div class="contact-info">
+    <p><strong>Email:</strong> <a href="mailto:skawndawn@gmail.com">skawndawn@gmail.com</a></p>
+    <p><strong>Phone:</strong> <a href="tel:+639274503298">+63 927 450 3298</a></p>
+    <p><strong>Facebook:</strong> <a href="https://Facebook.com/in/Skawndawn" target="_blank">Facebook.com/Skawndawn</a></p>
+    <p><strong>Instagram:</strong> <a href="https://Instagram.com/Iskawnnn" target="_blank">Instagram.com/Iskawnnn</a></p>
+    <p><strong>Location:</strong> Angeles City, Philippines</p>
+  </div>
 
 </section>
 
 <footer>
-
-<p>© 2026 Arrel Zarate</p>
-
+  <p>© 2026 Arrel Zarate</p>
 </footer>
 
 <script src="script.js"></script>
-
 </body>
 </html>
