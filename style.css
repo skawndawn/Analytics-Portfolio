@@ -237,6 +237,17 @@ cursor:pointer;
   gap: 15px;
   margin-top: 30px;
 }
+.featured-project{
+  border: 2px solid #00adb5;
+  transform: scale(1.03);
+  box-shadow: 0 0 20px rgba(0,173,181,0.35);
+}
+
+.project-desc{
+  font-size: 0.9rem;
+  padding: 0 10px 15px;
+  color: #dcdcdc;
+}
 
 /* Individual contact line */
 .contact-info p {
