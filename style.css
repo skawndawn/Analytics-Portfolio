@@ -222,6 +222,11 @@ color:white;
 cursor:pointer;
 }
 
+.github-btn{
+  margin-left: 10px;
+  background: #24292e;
+}
+
 /* Center contact info container */
 .contact {
   display: flex;
